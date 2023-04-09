@@ -1,0 +1,41 @@
+[
+    {
+        "_id": "63a988d48d8e19d4b673810d",
+
+"name": "Harari Region",
+
+"isoCode": "HA",
+
+"countryCode": "ET",
+"nameone":[
+    {
+        "name": "Harari Region",
+
+"isoCode": "HA",
+
+"countryCode": "ET"
+    }
+],
+
+"latitude": "9.31486600",
+
+"longitude": "42.19677160", "v": 0,
+
+"created": "2023-03-28T05:23:29.251Z", "lastlogin": "2023-03-28T05:23:29.2517"
+    },
+    {
+        "_id": "63a",
+
+"name": "Harari Region",
+
+"isoCode": "HA",
+
+"countryCode": "TE",
+
+"latitude": "9.31486600",
+
+"longitude": "42.19677160", "v": 0,
+
+"created": "2023-03-28T05:23:29.251Z", "lastlogin": "2023-03-28T05:23:29.2517"
+    }
+]
