@@ -1,6 +1,5 @@
 const mongoose = require("mongoose");
 const validator =require("validator");
-// const bcrypt = require("bcryptjs");
 
 //schema creation 
 const registerSchema = new mongoose.Schema({
@@ -55,15 +54,6 @@ const registerSchema = new mongoose.Schema({
     }
 });
 
-//passward hashing 
-// registerSchema.pre("save",async function(next){
-//     if(this.isModified(passward)){
-//      this.passward = await bcrypt.hash(this.passward,12);
-//      this.confirmpassward = await bcrypt.hash(this.confirmpassward,12);
-//     }
-//     next();
-// })
-//collection created 
 const Register = new mongoose.model("Register",registerSchema);
 
 module.exports=Register;
